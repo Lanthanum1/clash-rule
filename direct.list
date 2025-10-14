@@ -12,5 +12,6 @@ DOMAIN-SUFFIX,jp.younoyes.com
 DOMAIN-SUFFIX,a.emby.my
 # DOMAIN-SUFFIX,emby.wtf
 # DOMAIN-SUFFIX,term.wtf
-# PROCESS-NAME
 
+# PROCESS-NAME
+PROCESS-NAME,ssh
