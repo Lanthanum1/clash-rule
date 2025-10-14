@@ -1,11 +1,10 @@
 GEOIP,CN
 DOMAIN-SUFFIX,micu.hk
 DOMAIN-SUFFIX,linux.do
-DOMAIN-SUFFIX,285286.xyz
+# DOMAIN-SUFFIX,285286.xyz
 DOMAIN-SUFFIX,bangumi.ca
 DOMAIN-SUFFIX,kiven.cc
 # DOMAIN-SUFFIX,nanflix.net
-# DOMAIN-SUFFIX,onyra.cc
 # DOMAIN-SUFFIX,mebimmer.de
 DOMAIN-SUFFIX,lilyemby.my
 DOMAIN-SUFFIX,us.younoyes.com
