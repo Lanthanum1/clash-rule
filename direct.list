@@ -1,5 +1,4 @@
 GEOIP,CN
-DOMAIN-SUFFIX,micu.hk
 # DOMAIN-SUFFIX,linux.do
 # temby
 # DOMAIN-SUFFIX,285286.xyz
@@ -16,7 +15,10 @@ DOMAIN-SUFFIX,emby.cn2gias.uk
 DOMAIN-SUFFIX,emby01.cn2gias.uk
 # 映月
 DOMAIN-SUFFIX,115cdn.de
-
+# 飞了个喵
+DOMAIN-SUFFIX,meowfly.de
+# shrek
+DOMAIN-SUFFIX,shrekmedia.org
 # PROCESS-NAME
 PROCESS-NAME,ssh
 
@@ -25,4 +27,5 @@ PROCESS-NAME,ssh
 # DOMAIN-SUFFIX,kiven.cc
 # DOMAIN-SUFFIX,nanflix.net
 # DOMAIN-SUFFIX,mebimmer.de
+# DOMAIN-SUFFIX,micu.hk
 
