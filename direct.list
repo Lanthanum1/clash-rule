@@ -1,7 +1,8 @@
 GEOIP,CN
 DOMAIN-SUFFIX,micu.hk
 # DOMAIN-SUFFIX,linux.do
-DOMAIN-SUFFIX,285286.xyz
+# temby
+# DOMAIN-SUFFIX,285286.xyz
 DOMAIN-SUFFIX,bangumi.ca
 DOMAIN-SUFFIX,kiven.cc
 # DOMAIN-SUFFIX,nanflix.net
@@ -10,6 +11,7 @@ DOMAIN-SUFFIX,lilyemby.my
 DOMAIN-SUFFIX,us.younoyes.com
 DOMAIN-SUFFIX,jp.younoyes.com
 DOMAIN-SUFFIX,a.emby.my
+# SNTP 机场
 DOMAIN-SUFFIX,emby.cn2gias.uk
 DOMAIN-SUFFIX,emby01.cn2gias.uk
 DOMAIN-SUFFIX,115cdn.de
