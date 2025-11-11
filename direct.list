@@ -3,19 +3,26 @@ DOMAIN-SUFFIX,micu.hk
 # DOMAIN-SUFFIX,linux.do
 # temby
 # DOMAIN-SUFFIX,285286.xyz
+# nya
 DOMAIN-SUFFIX,bangumi.ca
-DOMAIN-SUFFIX,kiven.cc
-# DOMAIN-SUFFIX,nanflix.net
-# DOMAIN-SUFFIX,mebimmer.de
+# lily
 DOMAIN-SUFFIX,lilyemby.my
-DOMAIN-SUFFIX,us.younoyes.com
-DOMAIN-SUFFIX,jp.younoyes.com
-DOMAIN-SUFFIX,a.emby.my
+# DOMAIN-SUFFIX,us.younoyes.com
+# DOMAIN-SUFFIX,jp.younoyes.com
+# 月饼
+DOMAIN-SUFFIX,emby.my
 # SNTP 机场
 DOMAIN-SUFFIX,emby.cn2gias.uk
 DOMAIN-SUFFIX,emby01.cn2gias.uk
+# 映月
 DOMAIN-SUFFIX,115cdn.de
-# DOMAIN-SUFFIX,emby.wtf
-# DOMAIN-SUFFIX,term.wtf
+
 # PROCESS-NAME
 PROCESS-NAME,ssh
+
+# DOMAIN-SUFFIX,emby.wtf
+# DOMAIN-SUFFIX,term.wtf
+# DOMAIN-SUFFIX,kiven.cc
+# DOMAIN-SUFFIX,nanflix.net
+# DOMAIN-SUFFIX,mebimmer.de
+
