@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,115cdn.de
 DOMAIN-SUFFIX,shrekmedia.org
 # PROCESS-NAME
 PROCESS-NAME,ssh
+PROCESS-NAME,easytier-gui
 
 # DOMAIN-SUFFIX,emby.wtf
 # DOMAIN-SUFFIX,term.wtf
