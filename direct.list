@@ -11,12 +11,15 @@ DOMAIN-SUFFIX,lilyemby.my
 # 月饼
 DOMAIN-SUFFIX,emby.my
 # SNTP 机场
-DOMAIN-SUFFIX,emby.cn2gias.uk
-DOMAIN-SUFFIX,emby01.cn2gias.uk
+# DOMAIN-SUFFIX,emby.cn2gias.uk
+# DOMAIN-SUFFIX,emby01.cn2gias.uk
 # 映月
 DOMAIN-SUFFIX,115cdn.de
 # shrek
 DOMAIN-SUFFIX,shrekmedia.org
+
+# 启源
+DOMAIN-SUFFIX,340773.xyz
 # PROCESS-NAME
 PROCESS-NAME,ssh
 PROCESS-NAME,easytier-gui
