@@ -20,6 +20,10 @@ DOMAIN-SUFFIX,shrekmedia.org
 
 # 启源
 DOMAIN-SUFFIX,340773.xyz
+
+# emos
+DOMAIN-KEYWORD,emos
+
 # PROCESS-NAME
 PROCESS-NAME,ssh
 PROCESS-NAME,easytier-gui
