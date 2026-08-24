@@ -163,7 +163,7 @@ proxy-groups:
       - DIRECT
       - ♻️ 自动选择
       - 🚀 手动切换
-      - 0.20x
+      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
@@ -192,12 +192,15 @@ proxy-groups:
     use:
       - all-proxies
 
-  # 0.20x: 自动筛选名称中包含 0.2 的节点
-  - name: 0.20x
-    type: select
+  # ⚡ 0.20x: 自动筛选名称中包含 0.2 的节点，并按延迟选择
+  - name: ⚡ 0.20x
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
     use:
       - all-proxies
-    filter: "(?i)0\\.2"
+    filter: "0[.]2"
 
   # 🇭🇰 Hong Kong: 自动筛选香港地区的节点
   - name: 🇭🇰 Hong Kong
@@ -276,7 +279,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换
-      - 0.20x
+      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
@@ -320,7 +323,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换
-      - 0.20x
+      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
@@ -340,7 +343,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换
-      - 0.20x
+      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
@@ -360,7 +363,7 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🚀 手动切换
-      - 0.20x
+      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
@@ -380,7 +383,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换
-      - 0.20x
+      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
@@ -400,7 +403,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换
-      - 0.20x
+      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
@@ -420,7 +423,7 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🚀 手动切换
-      - 0.20x
+      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
@@ -440,7 +443,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换
-      - 0.20x
+      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
@@ -462,7 +465,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换
-      - 0.20x
+      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
@@ -483,7 +486,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换
-      - 0.20x
+      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
