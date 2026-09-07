@@ -169,16 +169,8 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
 
-  # 🚫 国内广告: 拦截国内应用内的广告
-  - name: 🚫 国内广告
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-      - 🚀 节点选择
-
-  # 🚫 国外广告: 拦截国外应用或网页广告
-  - name: 🚫 国外广告
+  # 🚫 广告拦截: 广告与 HTTPDNS 拦截策略
+  - name: 🚫 广告拦截
     type: select
     proxies:
       - REJECT
@@ -211,26 +203,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 🚀 手动切换
-      - ⚡ 0.20x
-      - 🇭🇰 Hong Kong
-      - 🇯🇵 Japan
-      - 🇺🇸 United States
-      - 🇸🇬 Singapore
-      - 🇹🇼 Taiwan
-      - 🇰🇷 Korea
-      - 🇬🇧 United Kingdom
-      - 🇩🇪 Germany
-      - 🇫🇷 France
-      - 🌍 Other Regions
-
-
-  # Ⓜ️ 微软服务: 微软 Office, Outlook, OneDrive 等服务策略
-  - name: Ⓜ️ 微软服务
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
       - 🚀 手动切换
       - ⚡ 0.20x
       - 🇭🇰 Hong Kong
@@ -378,8 +350,8 @@ proxy-groups:
 
 # 分流规则
 rules:
-  - RULE-SET,AdBlock,🚫 国外广告
-  - RULE-SET,HTTPDNS,🚫 国外广告
+  - RULE-SET,AdBlock,🚫 广告拦截
+  - RULE-SET,HTTPDNS,🚫 广告拦截
   - RULE-SET,WeChat,🫧 WeChat
   - RULE-SET,Special,DIRECT
   - RULE-SET,EmbyDirect,DIRECT
