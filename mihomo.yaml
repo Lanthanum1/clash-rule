@@ -54,70 +54,90 @@ proxy-groups:
 
   # 🇭🇰 Hong Kong: 自动筛选香港地区的节点
   - name: 🇭🇰 Hong Kong
-    type: select
+    type: fallback
+    url: https://www.gstatic.com/generate_204
+    interval: 300
     include-all: true
     exclude-filter: '(?i)流量|到期|过期|過期|剩余|剩餘|重置|获取|獲取|套餐|有效期|订阅|訂閱|官网|官網|公告|(^|[^A-Za-z0-9])(Balance|Traffic|Expire|Expiry|Expiration|Reset|Quota)([^A-Za-z0-9]|$)'
     filter: '(?i)🇭🇰|香港|九龙|九龍|(^|[^A-Za-z0-9])(HK|HKG|Hong Kong|Kowloon)([^A-Za-z0-9]|$)'
 
   # 🇯🇵 Japan: 自动筛选日本地区的节点
   - name: 🇯🇵 Japan
-    type: select
+    type: fallback
+    url: https://www.gstatic.com/generate_204
+    interval: 300
     include-all: true
     exclude-filter: '(?i)流量|到期|过期|過期|剩余|剩餘|重置|获取|獲取|套餐|有效期|订阅|訂閱|官网|官網|公告|(^|[^A-Za-z0-9])(Balance|Traffic|Expire|Expiry|Expiration|Reset|Quota)([^A-Za-z0-9]|$)'
     filter: '(?i)🇯🇵|日本|东京|東京|大阪|名古屋|福冈|福岡|埼玉|(^|[^A-Za-z0-9])(JP|JPN|Japan|Tokyo|Osaka|Nagoya|Fukuoka|Saitama)([^A-Za-z0-9]|$)'
 
   # 🇺🇸 United States: 自动筛选美国地区的节点
   - name: 🇺🇸 United States
-    type: select
+    type: fallback
+    url: https://www.gstatic.com/generate_204
+    interval: 300
     include-all: true
     exclude-filter: '(?i)流量|到期|过期|過期|剩余|剩餘|重置|获取|獲取|套餐|有效期|订阅|訂閱|官网|官網|公告|(^|[^A-Za-z0-9])(Balance|Traffic|Expire|Expiry|Expiration|Reset|Quota)([^A-Za-z0-9]|$)'
     filter: '(?i)🇺🇸|美国|美國|洛杉矶|洛杉磯|圣何塞|聖荷西|西雅图|西雅圖|纽约|紐約|达拉斯|達拉斯|芝加哥|华盛顿|華盛頓|凤凰城|鳳凰城|拉斯维加斯|拉斯維加斯|硅谷|矽谷|(^|[^A-Za-z0-9])(US|USA|United States|America|Los Angeles|San Jose|Seattle|New York|Dallas|Chicago|Washington|Phoenix|Las Vegas|Silicon Valley)([^A-Za-z0-9]|$)'
 
   # 🇸🇬 Singapore: 自动筛选新加坡地区的节点
   - name: 🇸🇬 Singapore
-    type: select
+    type: fallback
+    url: https://www.gstatic.com/generate_204
+    interval: 300
     include-all: true
     exclude-filter: '(?i)流量|到期|过期|過期|剩余|剩餘|重置|获取|獲取|套餐|有效期|订阅|訂閱|官网|官網|公告|(^|[^A-Za-z0-9])(Balance|Traffic|Expire|Expiry|Expiration|Reset|Quota)([^A-Za-z0-9]|$)'
     filter: '(?i)🇸🇬|新加坡|狮城|獅城|(^|[^A-Za-z0-9])(SG|SGP|Singapore)([^A-Za-z0-9]|$)'
 
   # 🇹🇼 Taiwan: 自动筛选台湾地区的节点
   - name: 🇹🇼 Taiwan
-    type: select
+    type: fallback
+    url: https://www.gstatic.com/generate_204
+    interval: 300
     include-all: true
     exclude-filter: '(?i)流量|到期|过期|過期|剩余|剩餘|重置|获取|獲取|套餐|有效期|订阅|訂閱|官网|官網|公告|(^|[^A-Za-z0-9])(Balance|Traffic|Expire|Expiry|Expiration|Reset|Quota)([^A-Za-z0-9]|$)'
     filter: '(?i)🇹🇼|台湾|台灣|台北|台中|高雄|(^|[^A-Za-z0-9])(TW|TWN|Taiwan|Taipei|Taichung|Kaohsiung)([^A-Za-z0-9]|$)'
 
   # 🇰🇷 Korea: 自动筛选韩国地区的节点
   - name: 🇰🇷 Korea
-    type: select
+    type: fallback
+    url: https://www.gstatic.com/generate_204
+    interval: 300
     include-all: true
     exclude-filter: '(?i)流量|到期|过期|過期|剩余|剩餘|重置|获取|獲取|套餐|有效期|订阅|訂閱|官网|官網|公告|(^|[^A-Za-z0-9])(Balance|Traffic|Expire|Expiry|Expiration|Reset|Quota)([^A-Za-z0-9]|$)'
     filter: '(?i)🇰🇷|韩国|韓國|首尔|首爾|釜山|(^|[^A-Za-z0-9])(KR|KOR|Korea|Seoul|Busan)([^A-Za-z0-9]|$)'
 
   # 🇬🇧 United Kingdom: 自动筛选英国地区的节点
   - name: 🇬🇧 United Kingdom
-    type: select
+    type: fallback
+    url: https://www.gstatic.com/generate_204
+    interval: 300
     include-all: true
     exclude-filter: '(?i)流量|到期|过期|過期|剩余|剩餘|重置|获取|獲取|套餐|有效期|订阅|訂閱|官网|官網|公告|(^|[^A-Za-z0-9])(Balance|Traffic|Expire|Expiry|Expiration|Reset|Quota)([^A-Za-z0-9]|$)'
     filter: '(?i)🇬🇧|英国|英國|伦敦|倫敦|曼彻斯特|曼徹斯特|(^|[^A-Za-z0-9])(UK|GBR|United Kingdom|Britain|England|London|Manchester)([^A-Za-z0-9]|$)'
 
   # 🇩🇪 Germany: 自动筛选德国地区的节点
   - name: 🇩🇪 Germany
-    type: select
+    type: fallback
+    url: https://www.gstatic.com/generate_204
+    interval: 300
     include-all: true
     exclude-filter: '(?i)流量|到期|过期|過期|剩余|剩餘|重置|获取|獲取|套餐|有效期|订阅|訂閱|官网|官網|公告|(^|[^A-Za-z0-9])(Balance|Traffic|Expire|Expiry|Expiration|Reset|Quota)([^A-Za-z0-9]|$)'
     filter: '(?i)🇩🇪|德国|德國|法兰克福|法蘭克福|柏林|慕尼黑|(^|[^A-Za-z0-9])(DE|DEU|Germany|Deutschland|Frankfurt|Berlin|Munich)([^A-Za-z0-9]|$)'
 
   # 🇫🇷 France: 自动筛选法国地区的节点
   - name: 🇫🇷 France
-    type: select
+    type: fallback
+    url: https://www.gstatic.com/generate_204
+    interval: 300
     include-all: true
     exclude-filter: '(?i)流量|到期|过期|過期|剩余|剩餘|重置|获取|獲取|套餐|有效期|订阅|訂閱|官网|官網|公告|(^|[^A-Za-z0-9])(Balance|Traffic|Expire|Expiry|Expiration|Reset|Quota)([^A-Za-z0-9]|$)'
     filter: '(?i)🇫🇷|法国|法國|巴黎|马赛|馬賽|(^|[^A-Za-z0-9])(FR|FRA|France|Paris|Marseille)([^A-Za-z0-9]|$)'
 
   # 🌍 Other Regions: 自动筛选主要地区以外的所有节点
   - name: 🌍 Other Regions
-    type: select
+    type: fallback
+    url: https://www.gstatic.com/generate_204
+    interval: 300
     include-all: true
     exclude-filter: '(?i)流量|到期|过期|過期|剩余|剩餘|重置|获取|獲取|套餐|有效期|订阅|訂閱|官网|官網|公告|(^|[^A-Za-z0-9])(Balance|Traffic|Expire|Expiry|Expiration|Reset|Quota)([^A-Za-z0-9]|$)|0[.]2|🇭🇰|香港|九龙|九龍|(^|[^A-Za-z0-9])(HK|HKG|Hong Kong|Kowloon)([^A-Za-z0-9]|$)|🇯🇵|日本|东京|東京|大阪|名古屋|福冈|福岡|埼玉|(^|[^A-Za-z0-9])(JP|JPN|Japan|Tokyo|Osaka|Nagoya|Fukuoka|Saitama)([^A-Za-z0-9]|$)|🇺🇸|美国|美國|洛杉矶|洛杉磯|圣何塞|聖荷西|西雅图|西雅圖|纽约|紐約|达拉斯|達拉斯|芝加哥|华盛顿|華盛頓|凤凰城|鳳凰城|拉斯维加斯|拉斯維加斯|硅谷|矽谷|(^|[^A-Za-z0-9])(US|USA|United States|America|Los Angeles|San Jose|Seattle|New York|Dallas|Chicago|Washington|Phoenix|Las Vegas|Silicon Valley)([^A-Za-z0-9]|$)|🇸🇬|新加坡|狮城|獅城|(^|[^A-Za-z0-9])(SG|SGP|Singapore)([^A-Za-z0-9]|$)|🇹🇼|台湾|台灣|台北|台中|高雄|(^|[^A-Za-z0-9])(TW|TWN|Taiwan|Taipei|Taichung|Kaohsiung)([^A-Za-z0-9]|$)|🇰🇷|韩国|韓國|首尔|首爾|釜山|(^|[^A-Za-z0-9])(KR|KOR|Korea|Seoul|Busan)([^A-Za-z0-9]|$)|🇬🇧|英国|英國|伦敦|倫敦|曼彻斯特|曼徹斯特|(^|[^A-Za-z0-9])(UK|GBR|United Kingdom|Britain|England|London|Manchester)([^A-Za-z0-9]|$)|🇩🇪|德国|德國|法兰克福|法蘭克福|柏林|慕尼黑|(^|[^A-Za-z0-9])(DE|DEU|Germany|Deutschland|Frankfurt|Berlin|Munich)([^A-Za-z0-9]|$)|🇫🇷|法国|法國|巴黎|马赛|馬賽|(^|[^A-Za-z0-9])(FR|FRA|France|Paris|Marseille)([^A-Za-z0-9]|$)'
 
