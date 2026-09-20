@@ -160,10 +160,10 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - ⚡ 0.20x
       - DIRECT
       - ♻️ 自动选择
       - 🚀 手动切换
-      - ⚡ 0.20x
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
@@ -321,6 +321,7 @@ proxy-groups:
   - name: 🤖 AI服务
     type: select
     proxies:
+      - 🇸🇬 Singapore
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换
@@ -328,7 +329,6 @@ proxy-groups:
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
-      - 🇸🇬 Singapore
       - 🇹🇼 Taiwan
       - 🇰🇷 Korea
       - 🇬🇧 United Kingdom
