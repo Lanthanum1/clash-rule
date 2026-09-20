@@ -361,6 +361,7 @@ proxy-groups:
   - name: 🔍 谷歌服务
     type: select
     proxies:
+      - 🇸🇬 Singapore
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🚀 手动切换
@@ -368,7 +369,6 @@ proxy-groups:
       - 🇭🇰 Hong Kong
       - 🇯🇵 Japan
       - 🇺🇸 United States
-      - 🇸🇬 Singapore
       - 🇹🇼 Taiwan
       - 🇰🇷 Korea
       - 🇬🇧 United Kingdom
