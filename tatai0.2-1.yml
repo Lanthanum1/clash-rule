@@ -495,8 +495,6 @@ proxy-providers:
     url: "https://example.com/your-subscription-url"
     interval: 3600
     path: ./providers/all-proxies.yaml
-    override:
-      udp: true
     health-check:
       enable: true
       interval: 600
