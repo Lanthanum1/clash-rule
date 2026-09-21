@@ -502,6 +502,7 @@ proxy-providers:
 
 # 分流规则
 rules:
+  - RULE-SET,CustomDirect,DIRECT
   - RULE-SET,AdBlock,🚫 广告拦截
   - RULE-SET,HTTPDNS,🚫 广告拦截
   - RULE-SET,WeChat,🫧 WeChat
@@ -573,6 +574,12 @@ rules:
 
 # 规则提供者
 rule-providers:
+  CustomDirect:
+    type: http
+    behavior: classical
+    url: 'https://cdn.jsdelivr.net/gh/Lanthanum1/clash-rule@master/direct.yml'
+    path: ./Rules/CustomDirect
+    interval: 604800
   WeChat:
     type: http
     behavior: classical
